@@ -1,2 +1,2 @@
-# Medical-Image-Analysis
+## Medical Image Analysis
 Malaria Classification
