@@ -26,5 +26,24 @@ The blood smear process can be visualized in Figure below:
 
 ![](https://miro.medium.com/max/2400/1*VWxRC2BePykk3xVVEDzbdg.png)
 
-### Malaria database
-![]()
+### Malaria datasets
+ The National Institute of Health (NIH) has made their Malaria Dataset available to the public on their [website](https://ceb.nlm.nih.gov/repositories/malaria-datasets/)
+ 
+![](https://github.com/shejz/Medical-Image-Analysis/blob/main/Malaria%20Dataset.jpg)
+
+**The dataset consists of 27,588 images belonging to two separate classes**:
+
+- Parasitized: Implying that the region contains malaria.
+- Uninfected: Meaning there is no evidence of malaria in the region.
+
+The number of images per class is equally distributed with 13,794 images per each respective class.
+
+### Medical image analysis results
+
+Malaria classifier model training/testing accuracy and loss plot shows that we’ve achieved high accuracy and low loss. The model isn’t exhibiting signs of over/underfitting. This deep learning medical imaging “malaria classifier” model was created with **ResNet** architecture using Keras/TensorFlow.
+
+![](https://github.com/shejz/Medical-Image-Analysis/blob/main/plot.png)
+
+Here we can see that our model was trained for a total of 50 epochs. A smaller variant of ResNet whose model size is only 17.7MB, we were able to obtain 96% accuracy
+
+
